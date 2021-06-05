@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a daily workout tracker app using express, mongod, node, and mongoose. It allows the user to add new workouts, or update workouts with exercise name, weight, sets, reps, and duration.
+This is a daily workout tracker app using Express, MongoDB, Node, Mongoose, Mongo Atlas, and deployed using Heroku. It allows the user to add new workouts, or update workouts with exercise name, weight, sets, reps, and duration.
 
 Deployed Link: https://agile-basin-17508.herokuapp.com/
 
