@@ -14,8 +14,10 @@ require("./routes/html-routes.js")(app);
 require("./routes/api-routes.js")(app);
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/custommethoddb",
-  { useNewUrlParser: true }
+  process.env.MONGODB_URI || "mongodb://localhost/workout_tracker",
+  { 
+    useNewUrlParser: true
+  }
 );
 
 app.listen(PORT, () => {
